@@ -3,13 +3,44 @@ html{
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'D-DIN Bold';
+    src: url('assets/fonts/D-DINbold.otf');
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('assets/fonts/D-DIN.otf');
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-family: 'D-DIN Bold', system-ui, 'Montserrat','Segoe UI', sans-serif;
     background-color: #f5f5f5;
 }
 
 #header{
     height:100vh;
+    /* background-image: url('assets/img/0-head.webp'); */
+    background-size: 120%;
+    background-position: 18% 18%;
+    color: #fff;
+}
+
+.head-bg{
+    padding-left: 8%;
+}
+.slogan{
+    font-family: 'D-DIN Bold', system-ui, 'Montserrat','Segoe UI', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 0px;
+    padding-top:6%;
+    text-transform: uppercase;
+}
+
+.headText{
+    background-color: black;
 }
