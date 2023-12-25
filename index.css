@@ -23,24 +23,51 @@ body{
 
 #header{
     height:100vh;
-    /* background-image: url('assets/img/0-head.webp'); */
+    background-image: url('assets/img/0-head.webp');
     background-size: 120%;
-    background-position: 18% 18%;
-    color: #fff;
+    background-position: 18% 18%;;
+    color:#fff;
 }
 
-.head-bg{
-    padding-left: 8%;
-}
 .slogan{
     font-family: 'D-DIN Bold', system-ui, 'Montserrat','Segoe UI', sans-serif;
     font-size: 2rem;
-    color: #fff;
     margin-top: 0px;
     padding-top:6%;
     text-transform: uppercase;
+    padding-left: 8%;
 }
 
 .headText{
-    background-color: black;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    padding-left: 8%;
+}
+.headText h1{
+    font-family: 'D-DIN Bold', system-ui, 'Montserrat','Segoe UI', sans-serif;
+    font-size: 7rem;
+    margin: 0px;
+}
+
+.headText h3{
+    font-family: 'D-DIN', system-ui, 'Montserrat','Segoe UI', sans-serif;
+    font-size: 3rem;
+    margin-top: 3%;
+}
+
+.conoceme{
+    font-size: 1.8rem;
+    font-family: 'D-DIN Bold', system-ui, 'Montserrat','Segoe UI', sans-serif;
+    text-transform: uppercase;
+    background-color: #A5241F;
+    color:#fff;
+    padding:2% 4%;
+    border: none;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.75);
+}
+
+.conoceme:hover{
+    background-color: #94221e;
 }
