@@ -21,17 +21,8 @@ body{
     background-color: #f5f5f5;
 }
 
-/* #header{
-    height:100vh;
-    background-image: url('assets/img/0-head.webp');
-    background-size: 120%;
-    background-position: 18% 18%;;
-    color:#fff;
-} */
-
 #header {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,7 +36,6 @@ body{
 }
 
 .head-bg {
-    /* position: relative; */
     height:100vh;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.3); /* Fondo negro con opacidad */
@@ -74,7 +64,7 @@ body{
     margin: 0px;
 }
 
-.headText h3{
+.headText h2{
     font-family: 'D-DIN', system-ui, 'Montserrat','Segoe UI', sans-serif;
     font-size: 3rem;
     margin-top: 3%;
@@ -93,4 +83,13 @@ body{
 
 .conoceme:hover{
     background-color: #94221e;
+}
+
+#about{
+    display:flex;
+    flex-direction: row;
+}
+#about img{
+    max-height: 70vh;
+    
 }
