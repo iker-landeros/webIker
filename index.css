@@ -22,6 +22,9 @@ body {
     background-color: black;
 }
 
+
+/*HEADER*/
+
 #header {
     content: "";
     top: 0;
@@ -89,6 +92,10 @@ body {
     background-color: #94221e;
 }
 
+
+
+/*ABOUT SECTION*/
+
 #about {
     display: flex;
     flex-direction: row;
@@ -124,6 +131,9 @@ body {
     font-size: 1.5rem;
     margin: 0px;
 }
+
+
+/*IMPACTO EN NÚMEROS*/
 
 #impact {
     position: relative;
@@ -200,6 +210,11 @@ h3 {
     filter: invert(100%) sepia(1%) saturate(1658%) hue-rotate(148deg) brightness(99%) contrast(98%);
 }
 
+
+
+
+/*LOGO SLIDER*/
+
 #logoSlider {
     position: relative;
     padding: 4% 5%;
@@ -253,4 +268,54 @@ h3 {
     height: 80px;
     margin: 0px 30px;
     filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(189deg) brightness(100%) contrast(55%);
+}
+
+
+/*TESTIMONIALS*/
+
+#testimonials {
+    position: relative;
+    padding: 4% 5%;
+    overflow: hidden;
+    background-color: #E9E9E9;
+}
+
+#testimonials::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/img/5-testimonials.png');
+    background-size: 100%;
+    background-position: 53% 55%;
+    filter:blur(2px);
+    opacity: .8; /* Ajusta la opacidad según tus preferencias */
+}
+
+.testimonyCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 2%;
+    flex-wrap: wrap;
+}
+
+.testimonyText{
+    margin: 10px;
+    flex: 1;
+    min-width: 30%;
+}
+
+.test-content{
+    font-size: 1.3rem;
+    font-family: 'D-DIN', system-ui, 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+.test-person{
+    font-size: 1.6rem;
+    font-family: 'D-DIN Bold', system-ui, 'Montserrat', 'Segoe UI', sans-serif;
+    font-weight: bold;
 }
